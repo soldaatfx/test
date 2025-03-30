@@ -1,0 +1,559 @@
+</html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="tokenflash.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create your meme coin or token on Solana without coding in seconds and almost for free. This is how to create meme coin or token on Solana.">
+    <title>TokenFlash - Create and launch token on Solana without coding</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+  <script type="module" crossorigin="" src="/assets/index-B_2aPoAn.js"></script>
+  <link rel="stylesheet" crossorigin="" href="/assets/index-BAE1KJFv.css">
+<style type="text/css" id="vuetify-theme-stylesheet">:root {
+  color-scheme: dark;
+}
+:root {
+  --v-theme-background: 49,51,56;
+  --v-theme-background-overlay-multiplier: 1;
+  --v-theme-surface: 43,45,49;
+  --v-theme-surface-overlay-multiplier: 1;
+  --v-theme-surface-bright: 204,191,214;
+  --v-theme-surface-bright-overlay-multiplier: 2;
+  --v-theme-surface-light: 66,66,66;
+  --v-theme-surface-light-overlay-multiplier: 1;
+  --v-theme-surface-variant: 163,163,163;
+  --v-theme-surface-variant-overlay-multiplier: 2;
+  --v-theme-on-surface-variant: 66,66,66;
+  --v-theme-primary: 169,64,195;
+  --v-theme-primary-overlay-multiplier: 1;
+  --v-theme-primary-darken-1: 39,124,193;
+  --v-theme-primary-darken-1-overlay-multiplier: 2;
+  --v-theme-secondary: 55,129,206;
+  --v-theme-secondary-overlay-multiplier: 2;
+  --v-theme-secondary-darken-1: 72,169,166;
+  --v-theme-secondary-darken-1-overlay-multiplier: 2;
+  --v-theme-error: 207,102,121;
+  --v-theme-error-overlay-multiplier: 2;
+  --v-theme-info: 33,150,243;
+  --v-theme-info-overlay-multiplier: 2;
+  --v-theme-success: 76,175,80;
+  --v-theme-success-overlay-multiplier: 2;
+  --v-theme-warning: 251,140,0;
+  --v-theme-warning-overlay-multiplier: 2;
+  --v-theme-surface-darken-1: 36,38,41;
+  --v-theme-surface-darken-1-overlay-multiplier: 1;
+  --v-theme-surface-darken-2: 32,34,37;
+  --v-theme-surface-darken-2-overlay-multiplier: 1;
+  --v-theme-surface-darken-3: 30,31,34;
+  --v-theme-surface-darken-3-overlay-multiplier: 1;
+  --v-theme-surface-darken-4: 24,25,27;
+  --v-theme-surface-darken-4-overlay-multiplier: 1;
+  --v-theme-surface-darken-5: 18,19,20;
+  --v-theme-surface-darken-5-overlay-multiplier: 1;
+  --v-theme-context-menu: 30,31,34;
+  --v-theme-context-menu-overlay-multiplier: 1;
+  --v-theme-on-background: 255,255,255;
+  --v-theme-on-surface: 255,255,255;
+  --v-theme-on-surface-bright: 0,0,0;
+  --v-theme-on-surface-light: 255,255,255;
+  --v-theme-on-primary: 255,255,255;
+  --v-theme-on-primary-darken-1: 255,255,255;
+  --v-theme-on-secondary: 255,255,255;
+  --v-theme-on-secondary-darken-1: 255,255,255;
+  --v-theme-on-error: 255,255,255;
+  --v-theme-on-info: 255,255,255;
+  --v-theme-on-success: 255,255,255;
+  --v-theme-on-warning: 255,255,255;
+  --v-theme-on-surface-darken-1: 255,255,255;
+  --v-theme-on-surface-darken-2: 255,255,255;
+  --v-theme-on-surface-darken-3: 255,255,255;
+  --v-theme-on-surface-darken-4: 255,255,255;
+  --v-theme-on-surface-darken-5: 255,255,255;
+  --v-theme-on-context-menu: 255,255,255;
+  --v-border-color: 255, 255, 255;
+  --v-border-opacity: 0.12;
+  --v-high-emphasis-opacity: 1;
+  --v-medium-emphasis-opacity: 0.7;
+  --v-disabled-opacity: 0.5;
+  --v-idle-opacity: 0.1;
+  --v-hover-opacity: 0.04;
+  --v-focus-opacity: 0.12;
+  --v-selected-opacity: 0.08;
+  --v-activated-opacity: 0.12;
+  --v-pressed-opacity: 0.16;
+  --v-dragged-opacity: 0.08;
+  --v-theme-kbd: 33, 37, 41;
+  --v-theme-on-kbd: 255, 255, 255;
+  --v-theme-code: 52, 52, 52;
+  --v-theme-on-code: 204, 204, 204;
+}
+.v-theme--light {
+  color-scheme: normal;
+  --v-theme-background: 255,255,255;
+  --v-theme-background-overlay-multiplier: 1;
+  --v-theme-surface: 255,255,255;
+  --v-theme-surface-overlay-multiplier: 1;
+  --v-theme-surface-bright: 255,255,255;
+  --v-theme-surface-bright-overlay-multiplier: 1;
+  --v-theme-surface-light: 238,238,238;
+  --v-theme-surface-light-overlay-multiplier: 1;
+  --v-theme-surface-variant: 66,66,66;
+  --v-theme-surface-variant-overlay-multiplier: 2;
+  --v-theme-on-surface-variant: 238,238,238;
+  --v-theme-primary: 24,103,192;
+  --v-theme-primary-overlay-multiplier: 2;
+  --v-theme-primary-darken-1: 31,85,146;
+  --v-theme-primary-darken-1-overlay-multiplier: 2;
+  --v-theme-secondary: 72,169,166;
+  --v-theme-secondary-overlay-multiplier: 1;
+  --v-theme-secondary-darken-1: 1,135,134;
+  --v-theme-secondary-darken-1-overlay-multiplier: 1;
+  --v-theme-error: 176,0,32;
+  --v-theme-error-overlay-multiplier: 2;
+  --v-theme-info: 33,150,243;
+  --v-theme-info-overlay-multiplier: 1;
+  --v-theme-success: 76,175,80;
+  --v-theme-success-overlay-multiplier: 1;
+  --v-theme-warning: 251,140,0;
+  --v-theme-warning-overlay-multiplier: 1;
+  --v-theme-on-background: 0,0,0;
+  --v-theme-on-surface: 0,0,0;
+  --v-theme-on-surface-bright: 0,0,0;
+  --v-theme-on-surface-light: 0,0,0;
+  --v-theme-on-primary: 255,255,255;
+  --v-theme-on-primary-darken-1: 255,255,255;
+  --v-theme-on-secondary: 255,255,255;
+  --v-theme-on-secondary-darken-1: 255,255,255;
+  --v-theme-on-error: 255,255,255;
+  --v-theme-on-info: 255,255,255;
+  --v-theme-on-success: 255,255,255;
+  --v-theme-on-warning: 255,255,255;
+  --v-border-color: 0, 0, 0;
+  --v-border-opacity: 0.12;
+  --v-high-emphasis-opacity: 0.87;
+  --v-medium-emphasis-opacity: 0.6;
+  --v-disabled-opacity: 0.38;
+  --v-idle-opacity: 0.04;
+  --v-hover-opacity: 0.04;
+  --v-focus-opacity: 0.12;
+  --v-selected-opacity: 0.08;
+  --v-activated-opacity: 0.12;
+  --v-pressed-opacity: 0.12;
+  --v-dragged-opacity: 0.08;
+  --v-theme-kbd: 33, 37, 41;
+  --v-theme-on-kbd: 255, 255, 255;
+  --v-theme-code: 245, 245, 245;
+  --v-theme-on-code: 0, 0, 0;
+}
+.v-theme--dark {
+  color-scheme: dark;
+  --v-theme-background: 18,18,18;
+  --v-theme-background-overlay-multiplier: 1;
+  --v-theme-surface: 33,33,33;
+  --v-theme-surface-overlay-multiplier: 1;
+  --v-theme-surface-bright: 204,191,214;
+  --v-theme-surface-bright-overlay-multiplier: 2;
+  --v-theme-surface-light: 66,66,66;
+  --v-theme-surface-light-overlay-multiplier: 1;
+  --v-theme-surface-variant: 163,163,163;
+  --v-theme-surface-variant-overlay-multiplier: 2;
+  --v-theme-on-surface-variant: 66,66,66;
+  --v-theme-primary: 33,150,243;
+  --v-theme-primary-overlay-multiplier: 2;
+  --v-theme-primary-darken-1: 39,124,193;
+  --v-theme-primary-darken-1-overlay-multiplier: 2;
+  --v-theme-secondary: 84,182,178;
+  --v-theme-secondary-overlay-multiplier: 2;
+  --v-theme-secondary-darken-1: 72,169,166;
+  --v-theme-secondary-darken-1-overlay-multiplier: 2;
+  --v-theme-error: 207,102,121;
+  --v-theme-error-overlay-multiplier: 2;
+  --v-theme-info: 33,150,243;
+  --v-theme-info-overlay-multiplier: 2;
+  --v-theme-success: 76,175,80;
+  --v-theme-success-overlay-multiplier: 2;
+  --v-theme-warning: 251,140,0;
+  --v-theme-warning-overlay-multiplier: 2;
+  --v-theme-on-background: 255,255,255;
+  --v-theme-on-surface: 255,255,255;
+  --v-theme-on-surface-bright: 0,0,0;
+  --v-theme-on-surface-light: 255,255,255;
+  --v-theme-on-primary: 255,255,255;
+  --v-theme-on-primary-darken-1: 255,255,255;
+  --v-theme-on-secondary: 255,255,255;
+  --v-theme-on-secondary-darken-1: 255,255,255;
+  --v-theme-on-error: 255,255,255;
+  --v-theme-on-info: 255,255,255;
+  --v-theme-on-success: 255,255,255;
+  --v-theme-on-warning: 255,255,255;
+  --v-border-color: 255, 255, 255;
+  --v-border-opacity: 0.12;
+  --v-high-emphasis-opacity: 1;
+  --v-medium-emphasis-opacity: 0.7;
+  --v-disabled-opacity: 0.5;
+  --v-idle-opacity: 0.1;
+  --v-hover-opacity: 0.04;
+  --v-focus-opacity: 0.12;
+  --v-selected-opacity: 0.08;
+  --v-activated-opacity: 0.12;
+  --v-pressed-opacity: 0.16;
+  --v-dragged-opacity: 0.08;
+  --v-theme-kbd: 33, 37, 41;
+  --v-theme-on-kbd: 255, 255, 255;
+  --v-theme-code: 52, 52, 52;
+  --v-theme-on-code: 204, 204, 204;
+}
+.v-theme--adkDark {
+  color-scheme: dark;
+  --v-theme-background: 49,51,56;
+  --v-theme-background-overlay-multiplier: 1;
+  --v-theme-surface: 43,45,49;
+  --v-theme-surface-overlay-multiplier: 1;
+  --v-theme-surface-bright: 204,191,214;
+  --v-theme-surface-bright-overlay-multiplier: 2;
+  --v-theme-surface-light: 66,66,66;
+  --v-theme-surface-light-overlay-multiplier: 1;
+  --v-theme-surface-variant: 163,163,163;
+  --v-theme-surface-variant-overlay-multiplier: 2;
+  --v-theme-on-surface-variant: 66,66,66;
+  --v-theme-primary: 169,64,195;
+  --v-theme-primary-overlay-multiplier: 1;
+  --v-theme-primary-darken-1: 39,124,193;
+  --v-theme-primary-darken-1-overlay-multiplier: 2;
+  --v-theme-secondary: 55,129,206;
+  --v-theme-secondary-overlay-multiplier: 2;
+  --v-theme-secondary-darken-1: 72,169,166;
+  --v-theme-secondary-darken-1-overlay-multiplier: 2;
+  --v-theme-error: 207,102,121;
+  --v-theme-error-overlay-multiplier: 2;
+  --v-theme-info: 33,150,243;
+  --v-theme-info-overlay-multiplier: 2;
+  --v-theme-success: 76,175,80;
+  --v-theme-success-overlay-multiplier: 2;
+  --v-theme-warning: 251,140,0;
+  --v-theme-warning-overlay-multiplier: 2;
+  --v-theme-surface-darken-1: 36,38,41;
+  --v-theme-surface-darken-1-overlay-multiplier: 1;
+  --v-theme-surface-darken-2: 32,34,37;
+  --v-theme-surface-darken-2-overlay-multiplier: 1;
+  --v-theme-surface-darken-3: 30,31,34;
+  --v-theme-surface-darken-3-overlay-multiplier: 1;
+  --v-theme-surface-darken-4: 24,25,27;
+  --v-theme-surface-darken-4-overlay-multiplier: 1;
+  --v-theme-surface-darken-5: 18,19,20;
+  --v-theme-surface-darken-5-overlay-multiplier: 1;
+  --v-theme-context-menu: 30,31,34;
+  --v-theme-context-menu-overlay-multiplier: 1;
+  --v-theme-on-background: 255,255,255;
+  --v-theme-on-surface: 255,255,255;
+  --v-theme-on-surface-bright: 0,0,0;
+  --v-theme-on-surface-light: 255,255,255;
+  --v-theme-on-primary: 255,255,255;
+  --v-theme-on-primary-darken-1: 255,255,255;
+  --v-theme-on-secondary: 255,255,255;
+  --v-theme-on-secondary-darken-1: 255,255,255;
+  --v-theme-on-error: 255,255,255;
+  --v-theme-on-info: 255,255,255;
+  --v-theme-on-success: 255,255,255;
+  --v-theme-on-warning: 255,255,255;
+  --v-theme-on-surface-darken-1: 255,255,255;
+  --v-theme-on-surface-darken-2: 255,255,255;
+  --v-theme-on-surface-darken-3: 255,255,255;
+  --v-theme-on-surface-darken-4: 255,255,255;
+  --v-theme-on-surface-darken-5: 255,255,255;
+  --v-theme-on-context-menu: 255,255,255;
+  --v-border-color: 255, 255, 255;
+  --v-border-opacity: 0.12;
+  --v-high-emphasis-opacity: 1;
+  --v-medium-emphasis-opacity: 0.7;
+  --v-disabled-opacity: 0.5;
+  --v-idle-opacity: 0.1;
+  --v-hover-opacity: 0.04;
+  --v-focus-opacity: 0.12;
+  --v-selected-opacity: 0.08;
+  --v-activated-opacity: 0.12;
+  --v-pressed-opacity: 0.16;
+  --v-dragged-opacity: 0.08;
+  --v-theme-kbd: 33, 37, 41;
+  --v-theme-on-kbd: 255, 255, 255;
+  --v-theme-code: 52, 52, 52;
+  --v-theme-on-code: 204, 204, 204;
+}
+.bg-background {
+  --v-theme-overlay-multiplier: var(--v-theme-background-overlay-multiplier);
+  background-color: rgb(var(--v-theme-background)) !important;
+  color: rgb(var(--v-theme-on-background)) !important;
+}
+.bg-surface {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface)) !important;
+  color: rgb(var(--v-theme-on-surface)) !important;
+}
+.bg-surface-bright {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-bright-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface-bright)) !important;
+  color: rgb(var(--v-theme-on-surface-bright)) !important;
+}
+.bg-surface-light {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-light-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface-light)) !important;
+  color: rgb(var(--v-theme-on-surface-light)) !important;
+}
+.bg-surface-variant {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-variant-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface-variant)) !important;
+  color: rgb(var(--v-theme-on-surface-variant)) !important;
+}
+.bg-primary {
+  --v-theme-overlay-multiplier: var(--v-theme-primary-overlay-multiplier);
+  background-color: rgb(var(--v-theme-primary)) !important;
+  color: rgb(var(--v-theme-on-primary)) !important;
+}
+.bg-primary-darken-1 {
+  --v-theme-overlay-multiplier: var(--v-theme-primary-darken-1-overlay-multiplier);
+  background-color: rgb(var(--v-theme-primary-darken-1)) !important;
+  color: rgb(var(--v-theme-on-primary-darken-1)) !important;
+}
+.bg-secondary {
+  --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
+  background-color: rgb(var(--v-theme-secondary)) !important;
+  color: rgb(var(--v-theme-on-secondary)) !important;
+}
+.bg-secondary-darken-1 {
+  --v-theme-overlay-multiplier: var(--v-theme-secondary-darken-1-overlay-multiplier);
+  background-color: rgb(var(--v-theme-secondary-darken-1)) !important;
+  color: rgb(var(--v-theme-on-secondary-darken-1)) !important;
+}
+.bg-error {
+  --v-theme-overlay-multiplier: var(--v-theme-error-overlay-multiplier);
+  background-color: rgb(var(--v-theme-error)) !important;
+  color: rgb(var(--v-theme-on-error)) !important;
+}
+.bg-info {
+  --v-theme-overlay-multiplier: var(--v-theme-info-overlay-multiplier);
+  background-color: rgb(var(--v-theme-info)) !important;
+  color: rgb(var(--v-theme-on-info)) !important;
+}
+.bg-success {
+  --v-theme-overlay-multiplier: var(--v-theme-success-overlay-multiplier);
+  background-color: rgb(var(--v-theme-success)) !important;
+  color: rgb(var(--v-theme-on-success)) !important;
+}
+.bg-warning {
+  --v-theme-overlay-multiplier: var(--v-theme-warning-overlay-multiplier);
+  background-color: rgb(var(--v-theme-warning)) !important;
+  color: rgb(var(--v-theme-on-warning)) !important;
+}
+.bg-surface-darken-1 {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-darken-1-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface-darken-1)) !important;
+  color: rgb(var(--v-theme-on-surface-darken-1)) !important;
+}
+.bg-surface-darken-2 {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-darken-2-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface-darken-2)) !important;
+  color: rgb(var(--v-theme-on-surface-darken-2)) !important;
+}
+.bg-surface-darken-3 {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-darken-3-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface-darken-3)) !important;
+  color: rgb(var(--v-theme-on-surface-darken-3)) !important;
+}
+.bg-surface-darken-4 {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-darken-4-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface-darken-4)) !important;
+  color: rgb(var(--v-theme-on-surface-darken-4)) !important;
+}
+.bg-surface-darken-5 {
+  --v-theme-overlay-multiplier: var(--v-theme-surface-darken-5-overlay-multiplier);
+  background-color: rgb(var(--v-theme-surface-darken-5)) !important;
+  color: rgb(var(--v-theme-on-surface-darken-5)) !important;
+}
+.bg-context-menu {
+  --v-theme-overlay-multiplier: var(--v-theme-context-menu-overlay-multiplier);
+  background-color: rgb(var(--v-theme-context-menu)) !important;
+  color: rgb(var(--v-theme-on-context-menu)) !important;
+}
+.text-background {
+  color: rgb(var(--v-theme-background)) !important;
+}
+.border-background {
+  --v-border-color: var(--v-theme-background);
+}
+.text-surface {
+  color: rgb(var(--v-theme-surface)) !important;
+}
+.border-surface {
+  --v-border-color: var(--v-theme-surface);
+}
+.text-surface-bright {
+  color: rgb(var(--v-theme-surface-bright)) !important;
+}
+.border-surface-bright {
+  --v-border-color: var(--v-theme-surface-bright);
+}
+.text-surface-light {
+  color: rgb(var(--v-theme-surface-light)) !important;
+}
+.border-surface-light {
+  --v-border-color: var(--v-theme-surface-light);
+}
+.text-surface-variant {
+  color: rgb(var(--v-theme-surface-variant)) !important;
+}
+.border-surface-variant {
+  --v-border-color: var(--v-theme-surface-variant);
+}
+.on-surface-variant {
+  color: rgb(var(--v-theme-on-surface-variant)) !important;
+}
+.text-primary {
+  color: rgb(var(--v-theme-primary)) !important;
+}
+.border-primary {
+  --v-border-color: var(--v-theme-primary);
+}
+.text-primary-darken-1 {
+  color: rgb(var(--v-theme-primary-darken-1)) !important;
+}
+.border-primary-darken-1 {
+  --v-border-color: var(--v-theme-primary-darken-1);
+}
+.text-secondary {
+  color: rgb(var(--v-theme-secondary)) !important;
+}
+.border-secondary {
+  --v-border-color: var(--v-theme-secondary);
+}
+.text-secondary-darken-1 {
+  color: rgb(var(--v-theme-secondary-darken-1)) !important;
+}
+.border-secondary-darken-1 {
+  --v-border-color: var(--v-theme-secondary-darken-1);
+}
+.text-error {
+  color: rgb(var(--v-theme-error)) !important;
+}
+.border-error {
+  --v-border-color: var(--v-theme-error);
+}
+.text-info {
+  color: rgb(var(--v-theme-info)) !important;
+}
+.border-info {
+  --v-border-color: var(--v-theme-info);
+}
+.text-success {
+  color: rgb(var(--v-theme-success)) !important;
+}
+.border-success {
+  --v-border-color: var(--v-theme-success);
+}
+.text-warning {
+  color: rgb(var(--v-theme-warning)) !important;
+}
+.border-warning {
+  --v-border-color: var(--v-theme-warning);
+}
+.on-background {
+  color: rgb(var(--v-theme-on-background)) !important;
+}
+.on-surface {
+  color: rgb(var(--v-theme-on-surface)) !important;
+}
+.on-surface-bright {
+  color: rgb(var(--v-theme-on-surface-bright)) !important;
+}
+.on-surface-light {
+  color: rgb(var(--v-theme-on-surface-light)) !important;
+}
+.on-primary {
+  color: rgb(var(--v-theme-on-primary)) !important;
+}
+.on-primary-darken-1 {
+  color: rgb(var(--v-theme-on-primary-darken-1)) !important;
+}
+.on-secondary {
+  color: rgb(var(--v-theme-on-secondary)) !important;
+}
+.on-secondary-darken-1 {
+  color: rgb(var(--v-theme-on-secondary-darken-1)) !important;
+}
+.on-error {
+  color: rgb(var(--v-theme-on-error)) !important;
+}
+.on-info {
+  color: rgb(var(--v-theme-on-info)) !important;
+}
+.on-success {
+  color: rgb(var(--v-theme-on-success)) !important;
+}
+.on-warning {
+  color: rgb(var(--v-theme-on-warning)) !important;
+}
+.text-surface-darken-1 {
+  color: rgb(var(--v-theme-surface-darken-1)) !important;
+}
+.border-surface-darken-1 {
+  --v-border-color: var(--v-theme-surface-darken-1);
+}
+.text-surface-darken-2 {
+  color: rgb(var(--v-theme-surface-darken-2)) !important;
+}
+.border-surface-darken-2 {
+  --v-border-color: var(--v-theme-surface-darken-2);
+}
+.text-surface-darken-3 {
+  color: rgb(var(--v-theme-surface-darken-3)) !important;
+}
+.border-surface-darken-3 {
+  --v-border-color: var(--v-theme-surface-darken-3);
+}
+.text-surface-darken-4 {
+  color: rgb(var(--v-theme-surface-darken-4)) !important;
+}
+.border-surface-darken-4 {
+  --v-border-color: var(--v-theme-surface-darken-4);
+}
+.text-surface-darken-5 {
+  color: rgb(var(--v-theme-surface-darken-5)) !important;
+}
+.border-surface-darken-5 {
+  --v-border-color: var(--v-theme-surface-darken-5);
+}
+.text-context-menu {
+  color: rgb(var(--v-theme-context-menu)) !important;
+}
+.border-context-menu {
+  --v-border-color: var(--v-theme-context-menu);
+}
+.on-surface-darken-1 {
+  color: rgb(var(--v-theme-on-surface-darken-1)) !important;
+}
+.on-surface-darken-2 {
+  color: rgb(var(--v-theme-on-surface-darken-2)) !important;
+}
+.on-surface-darken-3 {
+  color: rgb(var(--v-theme-on-surface-darken-3)) !important;
+}
+.on-surface-darken-4 {
+  color: rgb(var(--v-theme-on-surface-darken-4)) !important;
+}
+.on-surface-darken-5 {
+  color: rgb(var(--v-theme-on-surface-darken-5)) !important;
+}
+.on-context-menu {
+  color: rgb(var(--v-theme-on-context-menu)) !important;
+}
+</style><link rel="modulepreload" as="script" crossorigin="" href="/assets/create-spl-token-VQfb6ALN.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/useAxios-BSMKNu89.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/index-DVKssMzM.js"><link rel="stylesheet" crossorigin="" href="/assets/create-spl-token-CV9djRV6.css"></head>
+<body style="background: #333338;height: 100%; width: 100%;">
+    <div id="app" style="height: 100%; width: 100%;" data-v-app=""><div class="v-application v-theme--adkDark v-layout v-layout--full-height v-locale--is-ltr"><div class="v-application__wrap"><div class="flex-grow-1 position-relative bg-background bg-wave" style="min-width: 0px; z-index: 1;"><header class="v-toolbar v-toolbar--density-default elevation-0 v-theme--adkDark v-locale--is-ltr v-app-bar backdrop-blur" style="background-color: rgba(0, 0, 0, 0.4); top: 0px; z-index: 1004; transform: translateY(0px); position: fixed; left: 0px; width: calc(100% + 0px);"><!----><div class="v-toolbar__content" style="height: 64px;"><!----><!----><div class="v-sheet v-theme--adkDark bg-transparent d-flex align-center mx-auto w-100" style="max-width: 1200px;"><svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312 39" width="224" height="28"><path id="Flash" class="s0" aria-label="Flash" d="m164.2 4h19q3.5 0.1 3.5 3.7 0 3.8-3.8 3.8h-14.9v3.8h15q3.7 0 3.7 3.7-0.1 3.8-3.7 3.8h-15v7.5q-0.1 3.7-3.8 3.7-3.7 0-3.8-3.6v-22.6q0.1-3.8 3.8-3.8zm29.6 0q3.7 0.1 3.8 3.7l-0.1 18.8h14.9q3.8 0 3.8 3.8 0 3.7-3.7 3.7h-18.7q-3.8 0-3.8-3.6v-22.6q0-3.8 3.8-3.8zm51.6 30h-22.5q-1 0-1.9-0.4-0.9-0.5-1.4-1.4-0.5-0.9-0.5-1.9 0-1 5.6-12.3 5.6-11.2 6.1-12.1 0.5-0.9 1.4-1.4 0.9-0.5 1.9-0.5 1 0 1.9 0.5 0.8 0.5 1.3 1.4 0.5 0.9 6.2 12.1 5.6 11.3 5.6 12.3 0 1-0.5 1.9-0.5 0.9-1.4 1.4-0.9 0.4-1.8 0.4zm-16.5-7.5h10.3l-5.1-10.6zm49.9-18.7q0 3.7-3.7 3.8l-11.4-0.1q-3.8 0.1-3.8 2 0.1 1.7 3.9 1.7h3.6q11.4 0.1 11.4 9.5 0 9.2-11.3 9.3h-11.3q-3.7 0-3.7-3.7 0-3.7 3.7-3.7h11.3q3.8-0.1 3.8-2 0-1.9-3.9-1.9h-3.7q-11.2 0-11.2-9.2v-0.2q0-9.2 11.2-9.3h11.3q3.7 0.1 3.8 3.8zm25.7-3.8q3.8 0 3.8 3.8v22.5q0 3.7-3.8 3.7-3.8 0-3.7-3.7v-7.5h-5.5q-3.9 0-3.9-3.7 0-3.8 3.9-3.8l5.5-0.1v-7.4q0-3.8 3.7-3.8zm-18.7 0q3.8 0 3.8 3.8l-0.1 22.5q0 3.7-3.7 3.7-3.8 0-3.8-3.7v-22.5q0-3.7 3.8-3.8z" style="paint-order: stroke; stroke: rgb(169, 64, 195); stroke-width: 4; stroke-linejoin: round; fill: rgb(49, 51, 56);"></path><path id="Token" class="s1" aria-label="Token" d="m9.9 4h19q3.5 0.1 3.5 3.7 0 3.8-3.8 3.8h-5.6v18.8q0 3.7-3.8 3.7-3.7 0-3.7-3.6v-18.9h-5.6q-3.8 0-3.8-3.7 0.1-3.8 3.8-3.8zm40.5 0q3.8 0 7.4 2 3.6 1.9 5.6 5.5 2.1 3.6 2.1 7.5 0 3.9-2 7.5-2 3.6-5.6 5.6-3.6 1.9-7.5 1.9-3.9 0-7.5-1.9-3.5-2-5.5-5.6-2-3.6-2-7.5 0-3.9 2-7.5 2-3.6 5.6-5.5 3.6-2 7.4-2zm0.1 7.5q-2 0-3.8 1-1.8 0.9-2.8 2.7-1 1.8-1 3.8 0 2 1 3.7 1 1.8 2.8 2.8 1.8 1 3.8 1 1.9 0 3.7-1 1.8-1 2.8-2.8 1-1.7 1-3.7 0-2-1.1-3.8-1-1.8-2.8-2.7-1.8-1-3.6-1zm40.8-7.5q1.9 0 2.8 0.9 1 0.9 1 2.7v0.1q0 2-2 3.8l-6.9 7.5 6.9 7.5q2 1.8 2 3.5 0 0.1 0 0.2v0.4q0 1.6-1 2.5-1 0.9-2.7 0.9h-0.1q-1.9 0-2.9-1-1-0.9-4.6-5.4-3.7-4.4-4.7-5.5-0.9-1.1-0.9-3.1 0-1.8 0.9-3 1-1.2 4.7-5.7 3.8-4.5 4.7-5.4 1-0.9 2.8-0.9zm-18.7 0q3.8 0 3.8 3.7l-0.1 22.5q0 3.8-3.7 3.8-3.8 0-3.8-3.7v-22.5q0-3.8 3.8-3.8zm29.6 0h18.9q3.5 0.1 3.6 3.7 0 3.8-3.8 3.8h-15v15h14.9q3.8 0 3.8 3.8 0 3.7-3.7 3.7h-18.7q-3.8 0-3.8-3.6v-22.6q0-3.8 3.8-3.8zm5.5 15.1q0.1-3.8 3.7-3.8h7.6q3.7 0 3.8 3.7-0.1 3.8-3.8 3.8h-7.5q-3.8 0-3.8-3.7zm24.6-15.1q2 0.2 3.2 1.6l11.3 14.3v-12.6q0-3.2 3.1-3.3 4.3 0.1 4.3 3.4v23.3q0 3.3-4.3 3.3-1.9 0-3.1-1.5l-11.3-14.3v12.5q0 3.3-3.2 3.3-4.3 0-4.3-3.3v-23.4q0-3.2 4.3-3.3z" style="fill: rgb(255, 255, 255);"></path></svg><div class="v-spacer"></div><div class="d-flex"><a class="v-btn v-theme--adkDark v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-text font-weight-regular" href="/"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""><span class="font-weight-medium text-body-1">Create Token</span></span><!----><!----></a><a class="v-btn v-theme--adkDark v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-text font-weight-regular" href="https://raydium.io/liquidity/create-pool/" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""><span class="font-weight-medium text-body-1">Create Liquidity</span></span><!----><!----></a><a class="v-btn v-theme--adkDark v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-text font-weight-regular" href="/affiliate"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""><span class="font-weight-medium text-body-1">Affiliate Program</span></span><!----><!----></a></div><div class="v-spacer"></div><button type="button" class="v-btn v-theme--adkDark bg-primary v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-flat font-weight-regular"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__prepend"><i class="mdi-wallet mdi v-icon notranslate v-theme--adkDark v-icon--size-default" aria-hidden="true"></i></span><span class="v-btn__content" data-no-activator=""><span class="font-weight-medium">Select Wallet</span></span><!----><!----></button><!----><!----></div><!----></div><!----></header><div class="v-sheet v-theme--adkDark bg-transparent py-16" style="min-height: 100%;"><div class="position-relative d-flex px-6"><div class="flex-grow-1"><div class="text-center my-16 d-flex flex-column"><h1 class="text-h3">Create your Token on Solana</h1><div class="v-card v-card--flat v-theme--adkDark bg-orange v-card--density-default v-card--variant-flat text-body-1 mt-6 mx-auto rounded-lg font-weight-bold text-uppercase px-3 py-2"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----> Platform fee only <span class="text-decoration-line-through px-1">0.1 SOL</span> <span class="bg-green px-2 py-1 rounded">0.05 SOL</span><!----><!----><span class="v-card__underlay"></span></div><h2 class="text-h5 font-weight-light mt-6">That's the way how to create a Solana token without coding</h2><h3 class="text-h6 font-weight-light mt-4">Create your Meme-Coin, Crypto-Currency or any other Project-Token in seconds</h3><div class="w-100 d-flex justify-center mt-8"><a class="v-btn v-theme--adkDark v-btn--border bg-background v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-flat font-weight-regular" href="https://x.com/prima2x" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""><div class="font-weight-bold">OFFICIAL</div></span><span class="v-btn__append"><svg width="20px" height="20px" viewBox="0 0 290 290" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z"></path></svg></span><!----></a><hr class="v-divider v-divider--vertical v-theme--adkDark mx-4" aria-orientation="vertical" role="separator" style="--v-border-opacity: 0.2;"><a class="v-btn v-theme--adkDark v-btn--border bg-background v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-flat font-weight-regular" href="https://discord.gg/ngqKj9rcf9" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""><div class="font-weight-bold">SUPPORT &amp; FEEBACK</div></span><span class="v-btn__append"><svg width="22px" height="22px" viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><g><path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#fff" fill-rule="nonzero"></path></g></svg></span><!----></a></div><!----></div><div class="v-sheet v-theme--adkDark bg-transparent mx-auto" style="max-width: 600px;"><form class="v-form position-relative" novalidate=""><div class="v-card v-card--flat v-theme--adkDark bg-surface v-card--density-default elevation-4 rounded-lg v-card--variant-elevated pa-6 pt-2"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="d-flex ga-4"><div class="flex-grow-1"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Token Name <span class="text-red">*</span></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--center-affix v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><input size="1" type="text" id="input-7" aria-describedby="input-7-messages" class="v-field__input"><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div></div><div class="flex-grow-0"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Token Symbol <span class="text-red">*</span></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--center-affix v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><input size="1" type="text" id="input-9" aria-describedby="input-9-messages" class="v-field__input"><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div></div></div><div><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Image <span class="text-disabled text-caption ml-1">(optional)</span></div><div class="v-sheet v-theme--adkDark bg-surface-darken-2 v-sheet--rounded position-relative pa-3"><div data-v-ce9694a7="" class="dropzone"><div data-v-ce9694a7="" class="dropzone-wrapper" id="dropzoneWrapper"><input data-v-ce9694a7="" type="file" class="hidden" id="265917319079" accept="image/jpg,image/jpeg,image/png,image/webp,image/gif"><i class="mdi-tray-arrow-down mdi v-icon notranslate v-theme--adkDark text-disabled" aria-hidden="true" style="font-size: 50px; height: 50px; width: 50px;"></i><div class="mt-3 mb-4 text-body-1"> Drop image here or select </div><button type="button" class="v-btn v-theme--adkDark bg-primary v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-flat font-weight-regular"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Select Image</span><!----><!----></button><div></div></div><!----></div><div class="v-card v-card--flat v-theme--adkDark bg-transparent v-card--density-default v-card--variant-flat" style="display: none;"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="position-relative rounded overflow-hidden"><!----><!----><!----></div><!----><input type="file" accept="image/jpeg,image/png,image/gif,image/webp" style="display: none;"><!----><!----><span class="v-card__underlay"></span></div></div><!----></div><div class="d-flex ga-4"><div class="flex-grow-1"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Description <span class="text-disabled text-caption ml-1">(optional)</span></div><div class="v-input v-input--horizontal v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-textarea v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><textarea class="v-field__input" rows="5" id="input-12" aria-describedby="input-12-messages"></textarea><!----><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div></div></div><!----><!----><span class="v-card__underlay"></span></div><div class="v-card-title px-0 mt-5 text-medium-emphasis">Token Paramters</div><div class="v-card v-card--flat v-theme--adkDark bg-surface v-card--density-default elevation-4 rounded-lg v-card--variant-elevated mt-0"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="d-flex ga-4 pa-6 pt-2"><div class="flex-grow-1"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Decimals <span class="text-red">*</span></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-input--dirty v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--active v-field--center-affix v-field--dirty v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><input size="1" type="text" id="input-14" aria-describedby="input-14-messages" class="v-field__input" value="9"><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div></div><div class="flex-grow-1"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Total Supply <span class="text-red">*</span></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-input--dirty v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--active v-field--center-affix v-field--dirty v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><input size="1" type="text" id="input-16" aria-describedby="input-16-messages" class="v-field__input" value="1000000000"><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div></div></div><!----><!----><span class="v-card__underlay"></span></div><div class="v-card-title px-0 mt-5 text-medium-emphasis">Socials Links <span class="text-disabled text-caption ml-1">(optional)</span></div><div class="v-card v-card--flat v-theme--adkDark bg-surface v-card--density-default elevation-4 rounded-lg v-card--variant-elevated mt-0"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="pa-6 pt-2"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Website</div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--center-affix v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><input size="1" type="text" id="input-18" aria-describedby="input-18-messages" class="v-field__input"><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">X (Twitter)</div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--center-affix v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><input size="1" type="text" id="input-20" aria-describedby="input-20-messages" class="v-field__input"><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Telegram</div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--center-affix v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><input size="1" type="text" id="input-22" aria-describedby="input-22-messages" class="v-field__input"><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Discord</div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--adkDark v-locale--is-ltr v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--center-affix v-field--flat v-field--has-background v-field--no-label v-field--variant-solo v-theme--adkDark bg-surface-darken-2 v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><!----><!----><input size="1" type="text" id="input-24" aria-describedby="input-24-messages" class="v-field__input"><!----></div><!----><!----><div class="v-field__outline"><!----><!----></div></div></div><!----><!----></div></div><!----><!----><span class="v-card__underlay"></span></div><div class="v-card-title px-0 mt-5 text-medium-emphasis">Revoke Authorities <span class="text-disabled text-caption ml-1">(optional)</span></div><div class="text-caption text-disabled mb-4"> Tokens are created with several authorities by default. It is recommended to revoke all these authorities to gain more trust from investors. This options are completely free without additional fees! </div><div class="v-card v-card--flat v-theme--adkDark bg-surface v-card--density-default elevation-4 rounded-lg v-card--variant-elevated mt-0"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--adkDark v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="pa-6"><div class="d-flex align-center"><div class="flex-grow-1"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Revoke Freeze</div><div class="text-medium-emphasis text-body-2 mt-2"> Freeze Authority allows you to freeze token accounts of holders. </div></div><div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--adkDark v-locale--is-ltr v-input--dirty v-switch v-switch--inset switch-fix"><!----><div class="v-input__control"><div class="v-selection-control v-selection-control--density-compact"><div class="v-selection-control__wrapper"><div class="v-switch__track"><!----><!----></div><div class="v-selection-control__input"><input id="switch-26" aria-disabled="false" type="checkbox" aria-describedby="switch-26-messages" value="true"><div class="v-switch__thumb v-switch__thumb--filled"><i class="mdi-close-circle mdi v-icon notranslate v-theme--adkDark v-icon--size-x-small" aria-hidden="true"></i></div></div></div><!----></div></div><!----><!----></div></div></div><hr class="v-divider v-theme--adkDark my-4" aria-orientation="horizontal" role="separator"><div class="d-flex align-center"><div class="flex-grow-1"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Revoke Mint</div><div class="text-medium-emphasis text-body-2 mt-2"> Mint Authority allows you to mint more supply of your token. </div></div><div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--adkDark v-locale--is-ltr v-input--dirty v-switch v-switch--inset switch-fix"><!----><div class="v-input__control"><div class="v-selection-control v-selection-control--density-compact"><div class="v-selection-control__wrapper"><div class="v-switch__track"><!----><!----></div><div class="v-selection-control__input"><input id="switch-29" aria-disabled="false" type="checkbox" aria-describedby="switch-29-messages" value="true"><div class="v-switch__thumb v-switch__thumb--filled"><i class="mdi-close-circle mdi v-icon notranslate v-theme--adkDark v-icon--size-x-small" aria-hidden="true"></i></div></div></div><!----></div></div><!----><!----></div></div></div><hr class="v-divider v-theme--adkDark my-4" aria-orientation="horizontal" role="separator"><div class="d-flex align-center"><div class="flex-grow-1"><div class="text-caption font-weight-medium text-uppercase mb-1 mt-3">Immutable Metadata</div><div class="text-medium-emphasis text-body-2 mt-2"> Enable to make metadata immutable to get more trust. <br>If active, the metadata becomes immutable and cannot be changed. </div></div><div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--adkDark v-locale--is-ltr v-input--dirty v-switch v-switch--inset switch-fix"><!----><div class="v-input__control"><div class="v-selection-control v-selection-control--density-compact"><div class="v-selection-control__wrapper"><div class="v-switch__track"><!----><!----></div><div class="v-selection-control__input"><input id="switch-32" aria-disabled="false" type="checkbox" aria-describedby="switch-32-messages" value="true"><div class="v-switch__thumb v-switch__thumb--filled"><i class="mdi-close-circle mdi v-icon notranslate v-theme--adkDark v-icon--size-x-small" aria-hidden="true"></i></div></div></div><!----></div></div><!----><!----></div></div></div></div><!----><!----><span class="v-card__underlay"></span></div><!----><div class="pt-6 text-center"><div class="text-center text-disabled font-weight-medium mb-5"> Platform Fee: 0.05 SOL (SALE) </div><button type="submit" class="v-btn v-theme--adkDark bg-primary v-btn--density-default elevation-0 v-btn--size-x-large v-btn--variant-flat font-weight-regular"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Create Token </span><span class="v-btn__append"><i class="mdi-rocket-launch mdi v-icon notranslate v-theme--adkDark v-icon--size-default" aria-hidden="true"></i></span><!----></button></div></form><!----><!----></div></div><!----></div></div><footer class="v-footer v-theme--adkDark position-sticky" style="height: auto; bottom: 0px;"><div class="v-sheet v-theme--adkDark bg-transparent text-center w-100 mx-auto py-6" style="max-width: 1100px;"><div class="text-caption text-medium-emphasis"> TokenFlash.net helps you to create and launch Solana tokens in seconds without coding knowledge. TokenFlash.net is a token creation platform. We do not provide financial advice or guarantee any returns. Users are responsible for complying with relevant laws and regulations. Creating and trading tokens carries significant risks - please do your own research before proceeding. The platform is provided "as is" without warranties of any kind. By using TokenFlash.net, you acknowledge and accept all associated risks. </div><div class="text-caption text-medium-emphasis mt-4"> © 2025 TokenFlash.net </div></div></footer></div></div></div></div>
+    <script src="https://t.statfox.io" wk="ZAyUdvdL46" defer=""></script>
+
+
+<img alt="" src="https://c.statfox.io?wk=ZAyUdvdL46&amp;hst=tokenflash.net&amp;ptl=TokenFlash%20-%20Create%20and%20launch%20token%20on%20Solana%20without%20coding&amp;pth=%2Fcreate-solana-token&amp;ref=&amp;res=1920x1080" style="position: absolute;"></body>
+</html>
